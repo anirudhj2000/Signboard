@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="picker_colors">
+        <item>#FF0000</item>
+        <item>#FFC000</item>
+        <item>#FFFC00</item>
+        <item>#00FFFF</item>
+        <item>#FF00FF</item>
+        <item>#FFF</item>
+    </array>
+</resources>

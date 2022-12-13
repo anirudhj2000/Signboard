@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#121212">
+
+    <ImageView
+        android:id="@+id/cross_final"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:baselineAlignBottom="true"
+        android:src="@mipmap/cross_foreground"
+        android:layout_gravity="right"
+        app:tint="#ffffff" />
+
+    <TextView
+        android:id="@+id/marqTextFinal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="false"
+        android:singleLine="true"
+        android:layout_marginHorizontal="32dp"
+        android:text="HI bc kya haal oye"
+        android:textColor="@color/white"
+        android:textSize="256dp" />
+
+</LinearLayout>
